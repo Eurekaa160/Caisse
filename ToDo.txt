@@ -7,3 +7,23 @@ Changer Services
 add folder 
     -models (in path)
 
+            RAPPEL
+
+Je cree un view
+Je cree un model en relation avec ce view (if !isset)
+Je cree un controlleur en relation avec ce view (if !isset)
+Je cree un path qui va vers ce view 
+    si view : formulaire 
+        je cree une route (post)
+        j'ajoute une methode qui redirige vers ce path dans le controlleur correspondant
+        j'ajoute une methode dans le model si besoin
+
+    si view : !formulaire 
+        je cree une route (get)
+        j'ajoute une methode qui redirige vers ce path dans le controlleur correspondant
+        j'ajoute une methode dans le model si besoin
+
+remarques : 
+    un model -> un mapping (dans services)
+    un view -> un path (dans route) [get ou post]
+    revoir PDO mysql avec MVC (PJ final S3)
