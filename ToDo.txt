@@ -27,3 +27,4 @@ remarques :
     un model -> un mapping (dans services)
     un view -> un path (dans route) [get ou post]
     revoir PDO mysql avec MVC (PJ final S3)
+
